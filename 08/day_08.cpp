@@ -108,6 +108,6 @@ void part_2()
 
 int main()
 {
-  // part_1();
+  part_1();
   part_2();
 }

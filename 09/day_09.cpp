@@ -76,12 +76,6 @@ void part_2()
 {
   auto input = read_input();
 
-  // Store data in a map where keys are nums and values are:
-  // - position
-  // - size
-
-  // -> how to store space? -> another data structure -> list of positions and sizes ?
-
   map<int, pair<int, int>> data;
   vector<pair<int, int>> spaces;
   int id = 0;
